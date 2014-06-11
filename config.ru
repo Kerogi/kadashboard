@@ -14,6 +14,7 @@ configure do
 end
 
 map Sinatra::Application.assets_prefix do
+  env['console'] = 'Hello'
   run Sinatra::Application.sprockets
 end
 
