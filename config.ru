@@ -1,7 +1,9 @@
 require 'dashing'
+require 'chrome_logger'
+use ChromeLogger
 
 configure do
-  set :auth_token, 'YOUR_AUTH_TOKEN'
+  set :auth_token, 'KEROGI_TOKEN'
 
   helpers do
     def protected!
