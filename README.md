@@ -1,1 +1,2 @@
 Check out http://shopify.github.com/dashing for more information.
+[![Build Status](https://www.codeship.io/projects/1cb5e490-d3b0-0131-4a37-6646b25ab930/status)](https://www.codeship.io/projects/23495)
